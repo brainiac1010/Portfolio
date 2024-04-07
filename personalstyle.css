@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #17a2b8;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+section {
+    padding: 60px 0;
+    color: #343a40;
+}
+
+#about {
+    background-color: #f8f9fa;
+}
+
+#projects {
+    background-color: #e2e3e5;
+}
+
+#skills {
+    background-color: #d4d7db;
+    padding-bottom: 60px;
+}
+
+#skills .container2 {
+    margin-top: 40px;
+}
+
+#contact {
+    background-color: #c8cbcf;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.project-card {
+    background-color: rgb(175, 221, 204);
+   
+    border: 1px solid #dddddd;
+
+    padding: 20px;
+    transition: all 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+ 
+}
+
+.project-card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.project-card .card-title {
+    color: #343a40;
+}
+
+.project-card .card-text {
+    color: #6c757d;
+    flex-grow: 1;
+  
+}
+
+.btn-primary {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    margin-top: auto;
+    
+}
+
+.btn-primary:hover {
+    background-color: #138496;
+    border-color: #138496;
+}
+
+.project-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
