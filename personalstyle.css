@@ -75,7 +75,7 @@ section {
 
 .project-card {
     background-color: rgb(175, 221, 204);
-   
+
     border: 1px solid #dddddd;
 
     padding: 20px;
@@ -83,9 +83,9 @@ section {
     height: 100%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin: 10px;
 
- 
+
 }
 
 .project-card:hover {
@@ -100,14 +100,14 @@ section {
 .project-card .card-text {
     color: #6c757d;
     flex-grow: 1;
-  
+
 }
 
 .btn-primary {
     background-color: #17a2b8;
     border-color: #17a2b8;
     margin-top: auto;
-    
+
 }
 
 .btn-primary:hover {
